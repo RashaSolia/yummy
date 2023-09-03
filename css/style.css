@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    overflow: hidden;
+}
+.navLink ul li{
+    list-style: none;
+
+}
+.navLink ul li a{
+text-decoration: none;
+color: aliceblue;
+}
+.nav-side{
+    width: 15%;
+}
+.navLink{
+    position:relative;
+}
+
+.detailes-layer{
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6ca;
+    top: 100%;
+    transition: .5s;
+}
+
+.detailes:hover .detailes-layer{
+    top: 0;
+}
+.side-nav-menu{
+    z-index: 5555555555;
+} 
+
+.loading{
+    position: fixed;
+    z-index: 2225444;
+   width: 100%;
+   height: 100vh;
+}
+
